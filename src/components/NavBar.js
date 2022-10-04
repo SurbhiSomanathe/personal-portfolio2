@@ -42,7 +42,7 @@ export const NavBar = () => {
               <Nav className="ms-auto">
                 <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                 <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                <Nav.Link href="#projects" className={activeLink === 'Projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Projects')}>Projects</Nav.Link>
+                <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
@@ -59,7 +59,7 @@ export const NavBar = () => {
           {        
         
             <a
-                href="https://docs.google.com/document/d/1BcYVCZgnRQQ4TensJQxrBc1rCOUguZhbXbDBVcsCjxc/edit"
+                href="https://docs.google.com/document/d/12COICQfw93xeLRnNL7L3RWcvCn7iOaQ4/edit?usp=sharing&ouid=102339501710590195652&rtpof=true&sd=true"
                 target={"_blank"}
                 className="background-color: transparent" rel="noreferrer">
                 <AiOutlineArrowDown className="text-white transform transition-transform ml-2" />
