@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import logo from '../assests/img/logo.svg';
 import navIcon1 from '../assests/img/nav-icon1.svg';
 import github from '../assests/img/github.svg';
-import navIcon3 from '../assests/img/nav-icon3.svg';
 import { AiOutlineArrowDown } from "react-icons/ai";
 export const NavBar = () => {
 
@@ -33,7 +31,6 @@ export const NavBar = () => {
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
           <Container>
             <Navbar.Brand href="/">
-              {/* <img src={logo} alt="Logo" /> */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
               <span className="navbar-toggler-icon"></span>
@@ -47,12 +44,8 @@ export const NavBar = () => {
               <span className="navbar-text">
                 <div className="social-icon">
                   <a href="https://www.linkedin.com/in/surbhi-somnathe-32475a222"><img src={ navIcon1 } alt="" /></a>
-                  <a href="https://github.com/SurbhiSomanathe"><img src={ github} alt="" /></a>
-                  {/* <a href="https://www.instagram.com/sur_jun_bhi/?hl=en"><img src={ navIcon3 } alt="" /></a> */}
-                </div>
-                 {/* <HashLink to='#connect'> 
-                  <button className="vvd"><span>Let’s Connect</span></button> 
-                 </HashLink>  */}
+                  <a href="https://github.com/SurbhiSomanathe"><img src={ github} alt="" /></a>    
+                </div>                 
               </span>
             </Navbar.Collapse>
           </Container>
