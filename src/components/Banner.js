@@ -56,7 +56,7 @@ export const Banner = () => {
                 {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   {/* <span className="tagline">Welcome to my Portfolio</span> */}
-                  <h1>{`Hi! I'm Surbhi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{`Hi! I'm Surbhi`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
                     <p>I'm a Full Stack Developer, I have been studying web development and I develop primarily with React and Node.js,
                         I used to provide responsive Frontend interfaces, Backend development and Single Page Web Applications to meet both 
                         technical and consumer needs, and see through a project from conception to the end product. Also I have the ability to work with many frameworks,

@@ -43,24 +43,21 @@ export const NavBar = () => {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
-                  <a href="https://www.linkedin.com/in/surbhi-somnathe-32475a222"><img src={ navIcon1 } alt="" /></a>
+                  <a href="https://www.linkedin.com/in/surbhi-somanathe-32475a222/"><img src={ navIcon1 } alt="" /></a>
                   <a href="https://github.com/SurbhiSomanathe"><img src={ github} alt="" /></a>    
                 </div>                 
               </span>
             </Navbar.Collapse>
           </Container>
-          {        
-        
+          {
             <a
                 href="https://docs.google.com/document/d/12COICQfw93xeLRnNL7L3RWcvCn7iOaQ4/edit?usp=sharing&ouid=102339501710590195652&rtpof=true&sd=true"
                 target={"_blank"}
                 className="background-color: transparent" rel="noreferrer">
                 <AiOutlineArrowDown className="text-white transform transition-transform ml-2" />
                 <span className="text-sm">MY RESUME</span>
-            </a>
-      
-    
-}
+            </a> 
+          }
 
         </Navbar>
       // </Router>

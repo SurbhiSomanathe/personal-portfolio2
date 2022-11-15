@@ -1,89 +1,130 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCards";
 import colorSharp2 from "../assests/img/color-sharp2.png";
-import projImg1 from "../assests/img/Surbhi's garage.png";
-import projImg2 from "../assests/img/MEMORIES IMAGE.png";
-import projImg3 from "../assests/img/Blog App.png";
-import projImg4 from "../assests/img/project 4 image medical pager.png";
+import bookingApp from "../assests/img/Surbhi's garage.png";
+import MemoriesProject from "../assests/img/MEMORIES IMAGE.png";
+import blogApp from "../assests/img/Blog App.png";
+import ChatApp from "../assests/img/chat app .png";
+// import Github from '../assests/img/github.svg';
+import Github from "@iconscout/react-unicons/icons/uil-github";
 import TrackVisibility from 'react-on-screen';
 import React from "react";
-
-
+import "../App.css";
 export const Projects = () => {
 
-  const Projects = [
-          {
-            title: "Surbhi's Garage",
-            description: <h6> In this aap you can rent car for one day within your budget. </h6>,
-            imgUrl: "https://surbhisgarage.herokuapp.com/login",
-            url: {
-              live: "https://surbhisgarage.herokuapp.com/login",
-              Github: "https://github.com/SurbhiSomanathe/Surbhi-s-Garage",
-          },
-        },
-          {
-            title: "Memories Project",
-            description: <h6> We can add our memories here in the picture format and add date, hashtag, and some other thoughts about that day memory.</h6>,
-            imgUrl: projImg2,
-          },
-          {
-            title: "Blog App",
-            description: <h6>In these app you write blogs which you like too. With Adding
-            pictures too. </h6>,
-            imgUrl: projImg3,            
-          },
-
-          {
-            title: "Medical Pager(Chat App)",
-            description: <h6>It Is a Medical pager theme chap application. Its' an aap where doctors and medical personnel is used to update whats happening in there divisons of the hospital </h6>,
-            imgUrl: projImg4,
-          },
-
+  const projects = [
   ];
 
-  return (
-    <section className="project" id="project">
-      <Container>
-        <Row>
-          <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack projects and deploy them to web applications using Github, Hiroku and Netlify.</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                  </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          Projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                          
-                      )
-                    })
-                  }
-                </Row>
-              </Tab.Pane>
-              <Tab.Pane eventKey="section">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-              </Tab.Pane>
-              <Tab.Pane eventKey="third">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-              </Tab.Pane>
-            </Tab.Content>
-          </Tab.Container>
-        </div>}
-      </TrackVisibility>
-    </Col>
-  </Row>
-</Container>
-<img className="background-image-right" src={colorSharp2}></img>
-</section>
+return (
+  <section className="project" id="project">
+    <Container>
+      <Row>
+        <Col size={12}>
+          <TrackVisibility>
+            {({ isVisible }) =>
+            <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <h2>Projects</h2>
+              <p>My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack projects and deploy them to web applications using Github, Hiroku and Netlify.</p>
+              <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  {/* <Nav.Item>
+                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                  </Nav.Item> */}
+                  <Nav.Item>
+                    <Nav.Link eventKey="third">Projects</Nav.Link>
+                  </Nav.Item>
+                </Nav>
+                <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Pane eventKey="first">
+                    <Row>
+                      {
+                        projects.map((project, index) => {
+                          return (
+                            <ProjectCard
+                              key={index}
+                              {...project}
+                              />
+                          )
+                        })
+                      }
+                    </Row>
+                  </Tab.Pane>
+                  {/* <Tab.Pane eventKey="section">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                  </Tab.Pane> */}
+                  {/* <Tab.Pane eventKey="third"> */}
+
+
+
+
+
+
+<div className="row" >
+  <div className="col-sm-6">
+    <div className="sur">
+      <div className="card-body" >
+        <h3 className="card-title">BookingApp</h3>
+        <a href="https://surbhisgarage.herokuapp.com/login">
+            <img src={bookingApp} alt="" />
+            </a>
+        <p className="card-text">To book cars in online and checkout for the slots and availablity of cars.Admin can post new cars. Integrated with Stripe For Payment</p>
+        <a href="https://github.com/SurbhiSomanathe/Surbhi-s-Garage" className="btn btn-secondary"> <Github color="black" size="2rem" />
+          </a>
+      </div>
+    </div>
+  </div>
+  <div className="col-sm-6">
+    <div className="sur">
+      <div className="card-body">
+      <h3 className="card-title">MemoriesProject</h3>
+      <a href="https://glowing-souffle-ed176e.netlify.app/">
+            <img src={MemoriesProject} alt="" />
+          </a>      
+        <p className="card-text">We can add our memories here in the picture format and add date, hashtag, and some other thoughts about that day memory.</p>
+        <a href="https://github.com/SurbhiSomanathe/Memories-project" className="btn btn-secondary" ><Github color="black" size="2rem"  /></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="row">
+  <div className="col-sm-6">
+    <div className="sur">
+      <div className="card-body">
+        <h3 className="card-title">BolgApp</h3>
+        <a href="https://fluffy-zuccutto-a85b65.netlify.app/">
+            <img src={blogApp} alt="" />
+          </a>
+        <p className="card-text">In these app you write blogs which you like too. With Adding pictures too. And once you move on all blogs, blogs are available inside the database of the multiple users same as Instagram or the Facebook as well. </p>
+        <a href="https://github.com/SurbhiSomanathe/New_Blog_App" className="btn btn-secondary"><Github color="black" size="2rem" /></a>
+      </div>
+    </div>
+  </div>
+  <div className="col-sm-6">
+    <div className="sur">
+      <div className="card-body">
+      <h3 className="card-title">MedicalPager</h3>
+      <a href="https://dazzling-crisp-2db71f.netlify.app/">
+            <img src={ChatApp} alt="" />
+          </a>       
+        <p className="card-text">It Is a Medical pager theme chap application. Its' an aap where doctors and medical personnel is used to update whats happening in there divisons of the hospital</p>
+        <a href="https://github.com/SurbhiSomanathe/Medical-pager" className="btn btn-secondary"><Github color="black" size="2rem" /></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+                </Tab.Content>
+              </Tab.Container>
+            </div>}
+          </TrackVisibility>
+        </Col>
+      </Row>
+    </Container>
+    <img className="background-image-right" src={colorSharp2}></img>
+  </section>
 )
 }

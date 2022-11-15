@@ -644,18 +644,38 @@ aboutme{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ .card-body{
+  /* background-color:white; */
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+ .sur{
+  margin: 20px;
+  border: 2px ;
+  padding: 5px ;
+  /* box-shadow: 0 0 4px white; */
+  display: inline;
+  
+ }
+ .btn btn-secondary {
+  text-decoration: none;
+  align-items: center;
+  font-size: 22px;
+  color: black;
+}
+.card-text{
+  font-family: arial;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.card-title{
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a.btn.btn-secondary
+{
+  padding: 10px;
+  margin-bottom: 05px;
+  margin-left:05px;
+}
