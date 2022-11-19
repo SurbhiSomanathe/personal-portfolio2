@@ -2,7 +2,11 @@ import { useState, useEffect } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import navIcon1 from '../assests/img/nav-icon1.svg';
 import github from '../assests/img/github.svg';
-import { AiOutlineArrowDown } from "react-icons/ai";
+import resume from '../assests/img/resume.png';
+// import { AiOutlineArrowDown } from "react-icons/ai";
+
+
+
 export const NavBar = () => {
 
     const [activeLink, setActiveLink] = useState('home');
@@ -43,22 +47,13 @@ export const NavBar = () => {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
-                  <a href="https://www.linkedin.com/in/surbhi-somanathe-32475a222/"><img src={ navIcon1 } alt="" /></a>
-                  <a href="https://github.com/SurbhiSomanathe"><img src={ github} alt="" /></a>    
+                  <a href="https://www.linkedin.com/in/surbhi-somanathe/"target = {"_blank"} rel="noreferrer"><img src={ navIcon1 } alt="" /></a>
+                  <a href="https://github.com/SurbhiSomanathe" target = {"_blank"} rel="noreferrer"><img src={ github} alt="" /></a> 
+                  <a href="https://drive.google.com/file/d/1NNo-AK1c8IZxiHb60v55Vqrpv9iI7KJP/view?usp=share_link" target = {"_blank"} rel="noreferrer"><img src={resume} color="white" size="30px" alt="" /></a>       
                 </div>                 
               </span>
             </Navbar.Collapse>
           </Container>
-          {
-            <a 
-                href="https://drive.google.com/file/d/1NNo-AK1c8IZxiHb60v55Vqrpv9iI7KJP/view?usp=share_link"
-                target={"_blank"}
-                className="background-color: transparent" rel="noreferrer">
-                <AiOutlineArrowDown className="text-white transform transition-transform ml-2" />
-                <span className="text-sm">MY RESUME</span>
-            </a> 
-          }
-
         </Navbar>
       // </Router>
     )

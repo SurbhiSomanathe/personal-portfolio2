@@ -119,14 +119,15 @@ span.text-sm {
   width: 42px;
     height: 42px;
     color: #fff;
-   justify-content: center;
-    line-height: 1;
+    /* justify-content: center; */
+    line-height: ;
     border: 1px solid rgba(255, 255, 255, 0.5);
 
 }
 .social-icon {
     display: inline-block;
     margin-left: 14px;
+    color: white;
 }
 .social-icon a {
     width: 42px;
@@ -647,6 +648,8 @@ aboutme{
  .card-body{
   /* background-color:white; */
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /* max-width: 1000px; */
+  /* margin: auto; */
 }
  .sur{
   margin: 20px;
@@ -659,14 +662,26 @@ aboutme{
  .btn btn-secondary {
   text-decoration: none;
   align-items: center;
-  font-size: 22px;
   color: black;
+  display: inline;
 }
+
 .card-text{
   font-family: arial;
   color: rgb(255, 255, 255);
   font-size: 18px;
 }
+.card-text1{
+  font-family: Monaco;
+  font-size: large;
+  color: rgb(245, 223, 223);
+  font-size: 18px;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-bottom: 20px;
+
+}
+
 .card-title{
   color: rgb(255, 255, 255);
   padding: 20px;
@@ -679,3 +694,9 @@ a.btn.btn-secondary
   margin-bottom: 05px;
   margin-left:05px;
 }
+/* .CardBox{
+  padding: 10px;
+  margin-bottom: 05px;
+  margin-left: auto;
+  margin-right: auto;
+} */

@@ -61,12 +61,12 @@ export const Banner = () => {
                         I used to provide responsive Frontend interfaces, Backend development and Single Page Web Applications to meet both 
                         technical and consumer needs, and see through a project from conception to the end product. Also I have the ability to work with many frameworks,
                         client and server side languages.</p>
-                        
-                      <h2><u>About Me</u></h2>
-                    <p>Belongs to Non-IT background. I have always been intrested in technology and want to pursue career in it. In my downtown I read books and listen music.
-                      Love to watch K-dramas and K-pop whenevr get free time. 
+                        <h1>{`About Me!!`} <span className="wrap"></span></h1>
+                    <p className="card-text">I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities my current job position cannot provide.
+                      {/* Belongs to Non-IT background. I have always been intrested in technology and want to pursue career in it. In my downtown I read books and listen music.
+                      Love to watch K-dramas and K-pop whenevr get free time.  */}
                     </p>
-                    <p>Thank You</p>
+                    <p className="card-text">Thank You</p>
                     {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                 </div>}
               </TrackVisibility>
