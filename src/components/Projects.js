@@ -120,7 +120,7 @@ return (
           </a>       
         <p className="card-text">It Is a Medical pager theme chap application. Its' an aap where doctors and medical personnel is used to update whats happening in there divisons of the hospital</p>
         <p className="card-text1"> html, css, react, nodejs, express, mongodb, router</p>
-        <a href="https://github.com/SurbhiSomanathe/Medical-pager" className="ranu" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px" /><p>Guthub</p></a>
+        <a href="https://github.com/SurbhiSomanathe/Medical-pager" className="ranu" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px" /></a>
         <a href="https://bucolic-dodol-2ca62b.netlify.app/" className="ranu" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a> 
       </div>
     </div>
