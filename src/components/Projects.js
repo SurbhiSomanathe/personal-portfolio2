@@ -1,22 +1,13 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCards";
 import colorSharp2 from "../assests/img/color-sharp2.png";
-import bookingApp from "../assests/img/Surbhi's garage.png";
+import bookingApp from "../assests/img/car app.png";
 import MemoriesProject from "../assests/img/MEMORIES IMAGE.png";
 import blogApp from "../assests/img/Blog App.png";
 import ChatApp from "../assests/img/chat app .png";
-// import Github from '../assests/img/github.svg';
 import Github from "@iconscout/react-unicons/icons/uil-github";
-import Netlify from "@iconscout/react-unicons/icons/uil-github";
 import { SiNetlify } from "react-icons/si";
-
 import TrackVisibility from 'react-on-screen';
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-// import "swiper/css/pagination";
-// import "swiper/css";
-
 import React from "react";
 import "../App.css";
 
@@ -82,9 +73,9 @@ return (
             <img src={bookingApp} alt="" />
             </a>            
         <p className="card-text">To book cars in online and checkout for the slots and availablity of cars.Admin can post new cars. Integrated with Stripe For Payment</p>
-        <h3 className="card-text1"><h3>Tech Stack</h3> html, css, bootstrap, react, redux, router, nodejs, express, mongodb</h3>
-        <a href="https://github.com/SurbhiSomanathe/Surbhi-s-Garage" className="btn btn-secondary" target = {"_blank"} rel="noreferrer"> <Github color="black" size="30px" /></a>
-        <a href="https://surbhisgarage.herokuapp.com/login" className="btn btn-secondary" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" />
+        <p className="card-text1"> html, css, bootstrap, react, redux, router, nodejs, express, mongodb</p>
+        <a href="https://github.com/SurbhiSomanathe/Surbhi-s-Garage" className="ranu" target = {"_blank"} rel="noreferrer"> <Github color="black" size="2rem" /></a>
+        <a href="https://surbhisgarage.herokuapp.com/login" className="ranu" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="2rem" />
         </a>
       </div>
     </div>
@@ -93,13 +84,13 @@ return (
     <div className="sur">
       <div className="card-body">
       <h3 className="card-title">MemoriesProject</h3>
-      <a href="https://glowing-souffle-ed176e.netlify.app/" target = {"_blank"} rel="noreferrer">
+      <a href="https://sunny-blini-7b3719.netlify.app/" target = {"_blank"} rel="noreferrer">
             <img src={MemoriesProject} alt="" />
           </a>      
         <p className="card-text">We can add our memories here in the picture format and add date, hashtag, and some other thoughts about that day memory.</p>
-        <h3 className="card-text1"><h3>Tech Stack</h3> html, css, axios, react, redux, redux-thunk, nodejs, express, mongodb</h3>
-        <a href="https://github.com/SurbhiSomanathe/Memories-project" className="btn btn-secondary" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px"  /></a>
-        <a href="https://glowing-souffle-ed176e.netlify.app/" className="btn btn-secondary" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a>
+        <p className="card-text1"> html, css, axios, react, redux, redux-thunk, nodejs, express, mongodb</p>
+        <a href="https://github.com/SurbhiSomanathe/Memories-project" className="ranu" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px"  /></a>
+        <a href="https://sunny-blini-7b3719.netlify.app/" className="ranu" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a>
       </div>
     </div>
   </div>
@@ -114,9 +105,9 @@ return (
             <img src={blogApp} alt="" />
           </a>
         <p className="card-text">In these app you write blogs which you like too. With Adding pictures too. And once you move on all blogs, blogs are available inside the database of the multiple users same as Instagram or the Facebook as well. </p>
-        <h3 className="card-text1"><h3>Tech Stack</h3> html, css, bootstrap, react, redux, router, nodejs, express, mongodb</h3>
-        <a href="https://github.com/SurbhiSomanathe/New_Blog_App" className="btn btn-secondary" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px" /></a>
-        <a href="https://fluffy-zuccutto-a85b65.netlify.app/" className="btn btn-secondary" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a>
+        <p className="card-text1"> html, css, bootstrap, react, redux, router, nodejs, express, mongodb</p>
+        <a href="https://github.com/SurbhiSomanathe/New_Blog_App" className="ranu" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px" /></a>
+        <a href="https://fluffy-zuccutto-a85b65.netlify.app/" className="ranu" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a>
       </div>
     </div>
   </div>
@@ -124,13 +115,13 @@ return (
     <div className="sur">
       <div className="card-body">
       <h3 className="card-title">MedicalPager</h3>
-      <a href="https://dazzling-crisp-2db71f.netlify.app/" target = {"_blank"} rel="noreferrer">
+      <a href="https://bucolic-dodol-2ca62b.netlify.app/" target = {"_blank"} rel="noreferrer">
             <img src={ChatApp} alt="" />
           </a>       
         <p className="card-text">It Is a Medical pager theme chap application. Its' an aap where doctors and medical personnel is used to update whats happening in there divisons of the hospital</p>
-        <h3 className="card-text1"><h3>Tech Stack</h3> html, css, react, nodejs, express, mongodb, router</h3>
-        <a href="https://github.com/SurbhiSomanathe/Medical-pager" className="btn btn-secondary" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px" /></a>
-        <a href="https://dazzling-crisp-2db71f.netlify.app/" className="btn btn-secondary" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a> 
+        <p className="card-text1"> html, css, react, nodejs, express, mongodb, router</p>
+        <a href="https://github.com/SurbhiSomanathe/Medical-pager" className="ranu" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px" /><p>Guthub</p></a>
+        <a href="https://bucolic-dodol-2ca62b.netlify.app/" className="ranu" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a> 
       </div>
     </div>
   </div>

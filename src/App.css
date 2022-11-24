@@ -648,6 +648,7 @@ aboutme{
  .card-body{
   /* background-color:white; */
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+
   /* max-width: 1000px; */
   /* margin: auto; */
 }
@@ -659,29 +660,21 @@ aboutme{
   display: inline;
   
  }
- .btn btn-secondary {
-  text-decoration: none;
-  align-items: center;
-  color: black;
-  display: inline;
-}
-
 .card-text{
   font-family: arial;
   color: rgb(255, 255, 255);
   font-size: 18px;
 }
 .card-text1{
-  font-family: Monaco;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
-  color: rgb(245, 223, 223);
+  color: rgb(19, 18, 18);
   font-size: 18px;
   font-weight: bolder;
   padding-left: 10px;
   padding-bottom: 20px;
 
 }
-
 .card-title{
   color: rgb(255, 255, 255);
   padding: 20px;
@@ -690,10 +683,38 @@ aboutme{
 }
 a.btn.btn-secondary
 {
+  text-decoration: none;
+  color: black;
   padding: 10px;
   margin-bottom: 05px;
-  margin-left:05px;
+  margin-left:100px;
+  margin-right: 100px;  
+  display: block;
+  justify-content: center;
 }
+a.ranu
+{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin-bottom: 05px;
+  margin-left:100px;
+  margin-right: 100px;  
+  display: flex;
+  justify-content: center;
+}
+
+a.btn.btn-secondary1 {
+  text-decoration: none;
+  color: black;
+  /* display: inline; */
+  /* padding: 10px; */
+  display: block;
+  justify-content: center;
+}
+
+
+
 /* .CardBox{
   padding: 10px;
   margin-bottom: 05px;
