@@ -108,7 +108,7 @@ return (
         And once you move on all blogs, blogs are available inside the database of the multiple users 
         same as Instagram or the Facebook as well.</p>
         <p className="card-text1"> html, css, bootstrap, react, redux, router, nodejs, express, mongodb</p>
-        <a href="https://github.com/SurbhiSomanathe/New_Blog_App" className="ranu" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px" /></a>
+        <a href="https://github.com/SurbhiSomanathe/New-Blog-App-Both/tree/main" className="ranu" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px" /></a>
         <a href="https://transcendent-florentine-7b5bd9.netlify.app/" className="ranu" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a>
       </div>
     </div>
