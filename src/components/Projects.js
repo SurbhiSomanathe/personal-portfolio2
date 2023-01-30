@@ -84,13 +84,13 @@ return (
     <div className="sur">
       <div className="card-body">
       <h3 className="card-title">MemoriesProject</h3>
-      <a href="https://sunny-blini-7b3719.netlify.app/" target = {"_blank"} rel="noreferrer">
+      <a href="https://638de8bca0eae91045ce5da5--magnificent-vacherin-ebb40e.netlify.app/" target = {"_blank"} rel="noreferrer">
             <img src={MemoriesProject} alt="" />
           </a>      
         <p className="card-text">We can add our memories here in the picture format and add date, hashtag, and some other thoughts about that day memory.</p>
         <p className="card-text1"> html, css, axios, react, redux, redux-thunk, nodejs, express, mongodb</p>
-        <a href="https://github.com/SurbhiSomanathe/Memories-project" className="ranu" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px"  /></a>
-        <a href="https://sunny-blini-7b3719.netlify.app/" className="ranu" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a>
+        <a href="https://github.com/SurbhiSomanathe/Memories_Project" className="ranu" target = {"_blank"} rel="noreferrer"><Github color="black" size="30px"  /></a>
+        <a href="https://638de8bca0eae91045ce5da5--magnificent-vacherin-ebb40e.netlify.app/" className="ranu" target = {"_blank"} rel="noreferrer"> <SiNetlify color="skyblue" size="30px" /></a>
       </div>
     </div>
   </div>
@@ -117,7 +117,7 @@ return (
     <div className="sur">
       <div className="card-body">
       <h3 className="card-title">MedicalPager</h3>
-      <a href="https://bucolic-dodol-2ca62b.netlify.app/" target = {"_blank"} rel="noreferrer">
+      <a href="https://musical-marigold-5fdf5c.netlify.app/" target = {"_blank"} rel="noreferrer">
             <img src={ChatApp} alt="" />
           </a>       
         <p className="card-text">It Is a Medical pager theme chap application. Its' an aap where doctors and medical personnel is used to update whats happening in there divisons of the hospital</p>
