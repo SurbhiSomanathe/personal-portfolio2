@@ -49,7 +49,7 @@ export const NavBar = () => {
                 <div className="social-icon">
                   <a href="https://www.linkedin.com/in/surbhi-somanathe/"target = {"_blank"} rel="noreferrer"><img src={ navIcon1 } alt="" /></a>
                   <a href="https://github.com/SurbhiSomanathe" target = {"_blank"} rel="noreferrer"><img src={ github} alt="" /></a> 
-                  <a href="https://drive.google.com/file/d/1PuVqvHrxK5RbZEhlNStQJGmknNzOV5KQ/view?usp=share_link" target = {"_blank"} rel="noreferrer"><img src={resume} color="white" size="30px" alt="" /></a>       
+                  <a href="https://docs.google.com/document/d/1irX9MOAWTeCWTNVrJ2gRh8ecS7KbSY10BVIFXWOjOyI/edit" target = {"_blank"} rel="noreferrer"><img src={resume} color="white" size="30px" alt="" /></a>       
                 </div>                 
               </span>
             </Navbar.Collapse>
